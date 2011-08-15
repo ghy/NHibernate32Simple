@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate32Simple", "NHibernate32Simple\NHibernate32Simple.csproj", "{6EE7221A-E16E-4F84-9441-089A98F6BBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C07FBF9-A25E-4024-BADE-D9DC5131B401}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		NHibernate32Simple.vsmdi = NHibernate32Simple.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{B635AA18-F1E5-472E-A28B-7C7EB23F528A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NHibernate32Simple.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE7221A-E16E-4F84-9441-089A98F6BBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE7221A-E16E-4F84-9441-089A98F6BBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE7221A-E16E-4F84-9441-089A98F6BBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE7221A-E16E-4F84-9441-089A98F6BBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B635AA18-F1E5-472E-A28B-7C7EB23F528A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B635AA18-F1E5-472E-A28B-7C7EB23F528A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B635AA18-F1E5-472E-A28B-7C7EB23F528A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B635AA18-F1E5-472E-A28B-7C7EB23F528A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
